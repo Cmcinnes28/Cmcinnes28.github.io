@@ -1,0 +1,399 @@
+@font-face{
+   font-family:Playlist-script;
+   src: url("1fed4454352f201d52b65ca5480afb2d.eot"); /* IE9*/
+  src: url("1fed4454352f201d52b65ca5480afb2d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("1fed4454352f201d52b65ca5480afb2d.woff2") format("woff2"), /* chrome、firefox */
+  url("1fed4454352f201d52b65ca5480afb2d.woff") format("woff"), /* chrome、firefox */
+  url("1fed4454352f201d52b65ca5480afb2d.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("1fed4454352f201d52b65ca5480afb2d.svg#Playlist-Script") format("svg"); /* iOS 4.1- */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    line-height:1.4;
+    color:#1c1c1c;
+    background-color:#6a98ca;
+    text-align: center;
+    /*colors
+    color:#98baa6;
+    color:#ca9477;
+    color:#e3c49d;
+    color::#6a98ca;
+    */
+    /*text color
+    color:#4d2111;
+    font type: trocchi
+    */ 
+}
+/*Title and Links(Consistent throughout website*/
+    #title-logo{
+        float: left; position: absolute; top:20px; left:20px; height: 20%;
+    }
+    #header h1{
+        color:#4d2111; font-family:"playlist script"; font-size:5.5em;
+        background-color:#e3c49d; width:60%; margin:auto; border-style:double;
+        border-width: 10px 10px 10px 10px;
+    }
+    #titleborder{
+        border-bottom-style: solid;
+    }
+/*styles for the button links to each page*/
+    #page-links button{
+        padding:15px 45px; color:#4d2111; 
+        background-color:#98baa6;  
+        font-size:20px; 
+        font-family:"playlist script";
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #4d2111;
+        margin-top: 15px; 
+    }
+    #page-links a button:hover{
+     background-color:#ca9477; transition-duration:0.4s;
+    }
+    #page-links ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+    }
+    #page-links li{
+        display:inline;
+    }
+    #socialmedia{
+        float:left;
+        margin-top: 0%;
+        margin-right: auto;
+        margin-left:25%;
+        width:50%;
+    }
+    #facebook{
+        width:4%;height:7%;
+    }
+    #instagram{
+        width:4%; height:7%;
+    }
+    
+/*HOME PAGE*/
+
+    /*images on left side*/
+        #images-left{
+            float:left; width:25%; height:280px; 
+        }
+        #cowboy{
+            width:95%;height:150%;border-radius:1em;opacity: 0.6;
+        }
+        #franklin{
+            width:95%;height:150%;;border-radius:30px;opacity: 0.6;
+        }
+    /*content feed middle of page*/
+        #new-content{
+            float:left; width:50%;height:870px; background-color:#98baa6;
+            border-radius: 10px;
+             color:#4d2111;
+            
+        }
+        #new-content h1{
+            font-family:"playlist script"; 
+            font-size: 50px;
+            border-style:double;
+            border-width: 5px;
+            margin-left:50px;
+            margin-right:50px;
+        }
+        #pre-sales{
+                float:left;margin-left:15px;
+                background-color: #e3c49d;width:45%;height:80%; 
+                overflow-x:hidden;overflow-y:auto;text-align: center;
+                border-radius: 20px;    
+        }
+        #pre-sales h2{
+            border-style: double;
+            margin-left:40px; margin-right: 40px;
+        }
+        #upcomingPreSale h3{
+            font-family:"playlist script";
+            font-size: 30px;
+        }
+        #pastPreSale h3{
+            font-family:"playlist script";
+            font-size: 30px;
+        }
+        #update{
+            color:#4d2111; 
+        }
+        #update h3{
+            font-family:"playlist script";
+            font-size: 30px;
+        }
+        
+        #pre-sales h2{
+            font-family:"playlist script";
+            font-size: 35px;
+        }
+        /*Fathers Day, Summer DIY, Dinosaur DIY Presale*/
+            #SaleImg{
+                width:45%; height: 70%;
+                border-radius:20px;
+            }
+        /*Latest info div*/
+            #latest{
+                float:right;
+                margin-right:0.9375em;
+                background-color: #ca9477;
+                width:45%;height:80%;
+                border-radius: 20px;
+                overflow-x:hidden;overflow-y:auto;
+            }
+            #latest h2{
+                font-family:"playlist script";
+                font-size: 35px;
+                border-style:double;
+                border-width: 5px;
+                margin-left:50px;
+                margin-right:50px;
+            }
+            #listflav{
+                width:90%; height: 100%;
+                border-radius:20px;
+            }
+
+    /*Images on Right side*/
+    #images-right{
+        float:right;
+        width:25%;
+        height:280px; 
+    }
+    #pawpatrol{
+        width:95%;height:150%;border-radius:30px;opacity: 0.6;
+    }
+    #simon{
+        width:95%;height:150%;border-radius:30px;opacity: 0.6;
+    }
+/*ABOUT ME PAGE*/
+    #aboutme{
+        width:75%;
+        margin:auto;
+        background-color: #98baa6; border-radius: 20px;
+        color:#4d2111;
+    }
+    #aboutme h1{
+        width:50%;
+        margin:auto;
+        background-color: #e3c49d;border-radius: 20px;
+        font-family:"playlist script";
+    }
+    #contactinfo {
+        width:60%;
+        margin:auto;
+        background-color:#98baa6; 
+        border-radius: 20px; 
+    }
+    #contactinfo h2{
+        width:50%;
+        margin:auto;
+        background-color: #e3c49d;
+        font-family:"playlist script";
+        color:#4d2111;
+        border-radius: 20px;
+    }
+     #me-photo{
+        float:left;
+        width:410px;
+        padding:10px;
+    }
+    #jamie{
+        margin-left:auto;  margin-right:auto;
+        display:inline-block;content: "";clear:both;
+    }
+    #jamie img{
+        width:100%; height:100%;
+        border-radius:30px;
+    }
+  
+/*ORDER PAGE*/
+    #orderdescription{
+        color:#4d2111;
+    }
+    
+    #cookie{
+       background-color:#98baa6;
+       width:75%; margin:auto;
+       border-style:dashed; border-color: #4d2111;
+       border-radius: 20px;
+       /*font-size: 1.1em;*/
+    }
+    #placeorder{
+        background-color:#e3c49d;
+        font-family:"playlist script";
+        color:#4d2111;
+        width:25%;
+        margin:auto;
+        border-style:solid; border-radius: 20px; 
+        margin-bottom: 10px;
+    }
+    #leftSideOrder{
+        float:left;
+    }
+    /*quantity of cookies*/
+    #dozen{
+        background-color: #e3c49d;
+        color:#4d2111; 
+        width:49%; border-radius: 20px;
+    }
+    #dozen h2{
+        font-family:"playlist script";
+    }
+    /*Flavour of cookies*/
+    #flavour{
+        color:#4d2111;
+        background-color: #e3c49d;
+        width:49%;
+        border-radius: 20px;
+        margin-bottom: 10px; 
+        font-family:"playlist script";
+    }
+    #cookie-flavour{
+        background-color: #ca9477;
+        margin-bottom: 20px;
+        font-size: 18px;
+       
+    } 
+    #designDesc {
+        background-color: #e3c49d;
+        color:#4d2111; 
+        width:50%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-left:25%; 
+    }
+    #designDesc h2{
+    font-family:"playlist script";font-size: 25px;
+    }
+    
+    #design{
+        background-color: #ca9477;;
+        width: 400px;
+        height:50px;
+        border-style: solid;
+        resize: none; margin-bottom: 20px;
+    }
+    
+    #textarea:focus{
+        background-color: #6a98ca;
+        transition-duration: 0.5s;
+    }
+  
+    /*Contact Info*/
+    #contact{
+        color:#4d2111;
+        background-color: #e3c49d; border-radius: 20px; 
+        width:49%; height:15em; margin-top:-34.6%;float: right;
+        position: relative; font-family:"playlist script";
+    }
+    #fname{
+        background-color: #ca9477;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-right:40px;
+        margin-bottom: 20px;
+        transition-duration: 0.5s;
+    }
+    #lname{
+        background-color: #ca9477;font-size: 18px;
+        padding-left: 10px;transition-duration: 0.5s;
+    }
+    #phone{
+        background-color: #ca9477;;font-size: 18px;
+        padding-left: 10px;margin-right:40px;margin-bottom: 20px;transition-duration: 0.5s;
+    }
+    #address{
+        background-color: #ca9477;;font-size: 18px;
+        padding-left: 10px;transition-duration: 0.5s;
+    }
+    #city{
+        background-color: #ca9477;;font-size: 18px;
+        padding-left: 10px;margin-right:40px;margin-bottom: 20px;
+        transition-duration: 0.5s;
+    }
+    #postal{
+        background-color: #ca9477;;
+        font-size: 18px;padding-left: 10px;
+        transition-duration: 0.5s;
+    }
+    #contact input[type=text]:focus{
+        background-color: #6a98ca;
+    }
+    #contact input[type=tel]:focus{
+        background-color: #6a98ca;
+    }
+    #confirmButton{
+        padding:15px 45px; color:#4d2111; background-color:#e3c49d;  
+        font-size:20px; font-family:"playlist script";
+        border-radius: 20px;
+        border-style: solid;border-color: #4d2111;
+        margin-top: 15px; 
+    }
+    #confirmButton:hover{
+        background-color:white; transition-duration:0.4s;
+        }
+/*GALLERY PAGE*/
+#photos{
+    margin:auto;width:90%;height:90%; background-color: #98baa6;
+    border-radius: 20px;;
+        }
+    #galleryimage img{
+        position: relative;
+       width:400px;height:400px;
+      border-radius: 30px;padding:10px 10px 10px 10px;  
+    }    
+    #galleryimage img:hover{
+        opacity: 50%; 
+        background-color:white;
+        transition-duration:0.4s;   
+    }
+/* The Modal (background) */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4); 
+        }
+        
+/* Modal Content/Box */
+        .modal-content {
+            background-color: #98baa6;
+            margin: 15% auto; 
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%; font-family:"playlist script";
+            color: #4d2111;
+            font-size: 40px;
+        }
+        
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            
+            
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        
+       
+        

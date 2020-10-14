@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+        <meta charset="utf-8">
+        <title>The Travelling Cookie | Place an Order</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        
+    </head>
+    <body>
+        <div id=titleborder>
+            <img id="title-logo" src="jpeg/logo1.png" alt="The Travelling Cookie">
+                <header id="header">
+                    <h1>Order Here</h1>   
+                </header>
+            <!--Page links to each other page on the website-->
+                <div id="page-links">
+                    <ul>
+                        <li><a href="index.html"><button>Home</button></a></li>
+                        <li><a href="aboutme.html"><button>About Me</button></a></li>
+                        <li><a href="gallery.html"><button>Gallery</button></a></li>
+                        <li><a href="order.html"><button>Place an Order</button></a></p></li>
+                    </ul>
+                    
+                </div>
+        </div>
+        <!--beginning of Order Here Page-->
+        <div id="orderdescription">
+            <h3>Fill out the following form and I'll get back to you
+                about designs and details as soon as possible!!  
+            </h3>
+        </div>
+        <div id="placeorder">
+            <h2>Place your Order</h2>
+        </div>
+        <form method="get" action="order.html">
+            <fieldset id="cookie">
+            <div id="leftSideorder">
+            <!--Select the number of cookies-->
+            <div id="dozen">
+                <h2>Quantity of Cookies</h2>
+                    <input type="radio" id="dzn" name="option-dzn" value="1-dzn">
+                    <label for="1-dzn">1 Dozen(12 Cookies) $34</label><br>
+                    <input type="radio" id="dzn" name="option-dzn" value="2-dzn">
+                    <label for="3-dzn">2 Dozen(24 Cookies) $68</label><br>
+                    <input type="radio" id="dzn" name="option-dzn" value="3-dzn">
+                    <label for="3-dzn">3 Dozen(36 Cookies) $102</label><br>
+                    <input type="radio" id="dzn" name="option-dzn" value="4-dzn">
+                    <label for="4-dzn">4 Dozen(48 Cookies) $136</label><br>
+            </div>
+            <!--Select a Flavour of cookies-->
+            <div id="flavour">
+                <h2>Flavour of your Cookies</h2>
+                <select name="cookie-flavour" id="cookie-flavour">
+                    <option value="sel">-Select-</option>
+                    <option value="val">Vanilla</option>
+                    <option value="snick">Snickerdoodle</option>
+                    <option value="choc">Double Chocolate Chip</option>
+                    <option value="reese">Reese's Peanut Butter</option>
+                    <option value="cinn">Cinnamon Raisin</option>
+                    <option value="pumpkin">Pumpkin Spice Toffee</option>
+                </select>
+            </div>
+            <!--Description of design of cookies-->
+               <div id="designDesc">
+                   <h2>Design Style/Theme</h2>
+                    <h4>Enter a short Description of what design/theme 
+                        youd like for your cookies</h4><br>
+                        <textarea id="design" name="cookie-design" placeholder="Cookie Description" ></textarea>
+                </div> 
+            </div>
+            <!--Contact info For the Customer-->
+                <div id="contact">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required maxlength="40">
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required maxlength="40"><br>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number" required maxlength="9" >
+                        <input type="text" name="address" id="address" placeholder="Address" required maxlength="40"><br>
+                        <input type="text" name="city" id="city" placeholder="City" required maxlength="40">
+                        <input type="text" name="postal" id="postal" placeholder="Postal Code" required maxlength="6">
+                    </ul> 
+                </div>  
+            </div>
+        </div>
+            <button id="confirmButton">Confirm Order</button>
+
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Please Complete The Order before submitting<br> Thank You!</p>
+                    </div>
+                  
+                  </div>    
+        </fieldset>
+        
+        </form>
+        
+            
+            
+    </body>
+    <div id="socialmedia">
+            <p><a href="https://www.facebook.com/thetravellingcookie1/">
+            <img id="facebook" src="jpeg/facebook.png" alt="Facebook"></a>
+             <a href="https://www.instagram.com/thetravellingcookie_/">
+                <img id="instagram" src="jpeg/instagram.png" alt="Instagram"></a></p>
+        <footer><sm>Copyright 2020 The Travelling Cookie all rights reserved</sm></footer>
+            </div>
+    
+    <script src="order.js"></script>
+</html>
